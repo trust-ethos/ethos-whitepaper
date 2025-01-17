@@ -20,3 +20,7 @@
 
 * [Principles](governance/principles.md)
 * [Credibility Consensus](governance/credibility-consensus.md)
+
+## Security
+
+* [Smart Contract Audits](security/smart-contract-audits.md)
