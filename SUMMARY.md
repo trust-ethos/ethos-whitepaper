@@ -23,4 +23,5 @@
 
 ## Security
 
+* [Contracts and Ownership](security/contracts-and-ownership.md)
 * [Smart Contract Audits](security/smart-contract-audits.md)
