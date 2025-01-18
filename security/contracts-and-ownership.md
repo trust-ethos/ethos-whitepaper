@@ -14,7 +14,7 @@ Smart contracts are managed by multisigs in a [Safe](https://app.safe.global/hom
 
 Ethos also uses an Admin permission and separate multisig for non-withdraw operations. This is also protected by a multi-sig [Safe](https://app.safe.global/home?safe=base:0x72F04d999E12D456FE7eE0Acaa345124A081018D) and requires 2 of 4 signatures to manage non-withdraw operations. The address for this Safe is `0x72F04d999E12D456FE7eE0Acaa345124A081018D`
 
-| "Admin" wallets (2/5 multi-sig)              |
+| "Admin" wallets (2/4 multi-sig)              |
 | -------------------------------------------- |
 | `0xF66F66Bd3f35dba8a49866e42A7A9666fcAf9e42` |
 | `0x88ADa959a9dA289abe667362caF02755F34C552D` |
