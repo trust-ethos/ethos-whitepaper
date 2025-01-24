@@ -52,10 +52,10 @@ Specifically:
 
 ## Report a Vulnerability
 
-| Scope           | Managed By | Submit Via                                                                                                                   |
-| --------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Web Services    | Ethos Labs | email [support@ethos.network](mailto:support@ethos.network)                                                                  |
-| Smart Contracts | Sherlock   | [https://audits.sherlock.xyz/bug-bounties/pre/15?t=submission](https://audits.sherlock.xyz/bug-bounties/pre/15?t=submission) |
+| Scope           | Managed By | Submit Via                                                                                 |
+| --------------- | ---------- | ------------------------------------------------------------------------------------------ |
+| Web Services    | Ethos Labs | email [support@ethos.network](mailto:support@ethos.network)                                |
+| Smart Contracts | Sherlock   | [https://audits.sherlock.xyz/bug-bounties/47](https://audits.sherlock.xyz/bug-bounties/47) |
 
 Address urgent issues or questions to: [support@ethos.network ](mailto:support@ethos.network)
 
@@ -84,7 +84,7 @@ Severity and resolution are strictly determined by the Ethos team. Payment can b
 
 Smart Contract rewards and disputes are managed by Sherlock
 
-{% embed url="https://audits.sherlock.xyz/bug-bounties/pre/15" %}
+{% embed url="https://audits.sherlock.xyz/bug-bounties/47" %}
 
 Disputes addressed by Sherlock may not be re-escalated to the Ethos team.
 
@@ -117,7 +117,7 @@ Low / Info severity findings include:
 
 Smart contract eligibility and severity scoring will be strictly managed by Sherlock.
 
-[https://audits.sherlock.xyz/bug-bounties/pre/15](https://audits.sherlock.xyz/bug-bounties/pre/15)
+{% embed url="https://audits.sherlock.xyz/bug-bounties/47" %}
 
 The following issues are considered 'known' and ineligible for rewards.
 
