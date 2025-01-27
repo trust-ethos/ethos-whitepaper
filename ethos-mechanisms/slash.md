@@ -27,15 +27,13 @@ In the Ethereum Proof of Stake consensus protocol ([Beacon Chain](https://ethere
 
 Today in Ethos, you become eligible to validate and participate in slashing events if you have a minimum of 2Ξ staked cumulative across any Ethos profiles; this minimum is subject to change as we evaluate validator participation.
 
-###
-
 ### Slashing - Financial
 
 Any Ethos participant may act as a "whistleblower[^1]" to accuse another participant of inaccurate claims or unethical behavior. This accusation triggers a 24h lock on staking (and withdrawals) for the accused.&#x20;
 
 The whistleblower requests human validation by pledging a nominal reward to validators. Validators vote to indicate if they found the claims valid. Validators are rewarded the same whichever way they vote.&#x20;
 
-If validators vote in favor of the whistleblower, they reward the whistleblower pledged to validators is reimbursed _from the amount staked by the accused._ This is the "slashing punishment," and it cannot exceed 10% of the total amount staked in Ethos.
+If validators vote in favor of the whistleblower, they reward the whistleblower pledged to validators is reimbursed _from the amount staked by the accused._ This is the "slashing punishment," and it cannot exceed 10% of the total amount staked in Ethos (as of writing)
 
 **This is the&#x20;**_**only**_**&#x20;way in which staked funds may be withdrawn without the explicit approval of the person staking those assets.** It is intended to be rare; most unethical behavior can be reported first by a negative review or unvouching.
 
