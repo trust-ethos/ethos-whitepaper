@@ -16,6 +16,10 @@
 * [Profile](ethos-mechanisms/profile.md)
 * [Credibility Score](ethos-mechanisms/credibility-score.md)
 
+## Ethos.Markets
+
+* [Litepaper](ethos.markets/litepaper.md)
+
 ## Governance
 
 * [Principles](governance/principles.md)
