@@ -25,8 +25,6 @@ The exact parameters of how Slashing works are subject to change before launch.
 
 In the Ethereum Proof of Stake consensus protocol ([Beacon Chain](https://ethereum.org/en/roadmap/beacon-chain/)), with sufficient staked Ethereum (currently 32Ξ), one may act as a validator. Validators verify the accuracy and security of transactions and receive rewards for their efforts. Validators may act as a "[whistleblower](https://www.blocknative.com/blog/an-ethereum-stakers-guide-to-slashing-other-penalties)" and highlight an inaccurate or insecure transaction for extra validation, with various rewards and fees.&#x20;
 
-Today in Ethos, you become eligible to validate and participate in slashing events if you have a minimum of 2Ξ staked cumulative across any Ethos profiles; this minimum is subject to change as we evaluate validator participation.
-
 ### Slashing - Financial
 
 Any Ethos participant may act as a "whistleblower[^1]" to accuse another participant of inaccurate claims or unethical behavior. This accusation triggers a 24h lock on staking (and withdrawals) for the accused.&#x20;
