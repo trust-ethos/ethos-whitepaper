@@ -22,9 +22,9 @@ The range of the credibility score is currently 0 to 2800, with 5 different leve
 
 0-799 - untrusted
 
-800-1199 - questionable
+800 -1199 - questionable
 
-1200 - 1599 - netural
+1200 - 1599 - neutral
 
 1600-1999 - reputable
 
