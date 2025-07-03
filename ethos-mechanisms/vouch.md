@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Vouch
 
 **Vouching** indicates a high degree of trust.&#x20;
@@ -32,7 +18,7 @@ In the Ethos webapp, credibility score is earned through vouching over time, as 
 
 ### Mutual Respect
 
-When you vouch someone and they vouch you back, Ethos notes your mutual stake. This is commonly referred to as a [(3,3) relationship](https://research.tokenmetrics.com/3-comma-3/). Credibility and rewards for both of you are magnified. However, defecting from a mutual stake represents a greater indication that you might be untrustworthy; why would you turn your back on a friend who vouched for you?&#x20;
+When you vouch someone and they vouch you back, Ethos notes your mutual stake. This is commonly referred to as a (3,3) relationship. Credibility and rewards for both of you are magnified. However, defecting from a mutual stake represents a greater indication that you might be untrustworthy; why would you turn your back on a friend who vouched for you?&#x20;
 
 ### Slashing
 
