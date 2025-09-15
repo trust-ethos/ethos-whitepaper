@@ -14,29 +14,25 @@ Lying about your identity, however, is the most expensive action you can take on
 
 No two Ethos Profiles can attest the same account or wallet.&#x20;
 
-If one of your external accounts are already linked to another Ethos Profile, you may reclaim it automatically, without intervention or social validation. This action will be reflected as evidence on chain, which you can then use to "blow the whistle" on the fraudulent Ethos Profile pretending to be you, and trigger Social Validation.&#x20;
+If one of your external accounts are already linked to another Ethos Profile, you may reclaim it automatically, without intervention or social validation. This action will be reflected as evidence on chain, which you can then use to "blow the whistle" on the fraudulent Ethos Profile pretending to be you.
 
 ### Account Verification
 
-Attesting external accounts requires demonstrating you have control over that account. Typically this requires emitting a message (tweet, post, etc) or updating a page (profile, commit) from that external account.&#x20;
+Attesting external accounts requires demonstrating you have control over that account. Typically this requires emitting a message (tweet, post, etc) or updating a page (profile, commit) from that external account.&#x20; Other times it means a trusted oracle (like Privy) verifies your identity on behalf of Ethos.
 
-This does mean that _group accounts_ (like a business's Facebook profile) for which multiple people have access may be easy to accidentally attest from the wrong Ethos profile.&#x20;
-
-Support for various external accounts (Twitter, Facebook, Github, etc) will be added individually; this is not a blanket mechanism for attesting any link.
+Support for various external accounts (X.com, Facebook, Github, etc) will be added individually; this is not a blanket mechanism for attesting any link.
 
 ### Wallet Verification
 
-Attesting a wallet requires signing a request. Most wallet providers make this easy, as this is a standard Ethereum specification ([EIP-712](https://eips.ethereum.org/EIPS/eip-712)). Ethos plans to support wallets for blockchains beyond Ethereum.
+Attesting a wallet requires signing a request. Most wallet providers make this easy, as this is a standard Ethereum specification ([EIP-712](https://eips.ethereum.org/EIPS/eip-712)). Ethos plans to support wallets for blockchains beyond Ethereum & EVM.
 
 An Ethos profile can attest multiple wallets. This allows one to maintain security by keeping assets in different wallets with different keys, yet still represent all the assets within one Ethos profile. Any multi-sig wallets will require sufficient signing keys to sign the Ethos profile request, by definition. Ethos supports custodial and non-custodial wallets.
-
-Ethos can support hardware or air-gapped wallets, though you'll need to know how to hash and sign requests specific to each type of these offline wallets.&#x20;
 
 ### Pseudonymity and Permanence
 
 There is no requirement that attestation includes real names or identities. Real names do not confer any advantages to the [Credibility Score](credibility-score.md) calculation.
 
-Attested accounts and wallets are recorded permanently on chain. Be careful. If you maintain separate identifies for operational security or privacy reasons, one slip up is enough to permanently "burn" that pseudonym.&#x20;
+Attested accounts and wallets are recorded permanently onchain. Be careful. If you maintain separate identifies for operational security or privacy reasons, one slip up is enough to permanently "burn" that pseudonym.&#x20;
 
 ### Proof of Humanity
 
