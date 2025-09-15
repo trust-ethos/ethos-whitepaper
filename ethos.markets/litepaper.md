@@ -11,7 +11,7 @@ coverY: 0
 
 Each market is tied to an Ethos profile, which is connected to an Ethereum wallet. A market is intended to be attached to an identity that users want to speculate on the reputation for; it could be an individual user, a company or corporation, a DAO, or even an autonomous entity.
 
-The amount of markets available will start limited and controlled by Ethos Labs as a means of focusing liquidity into specific markets and giving all users the best possible experience.
+Any Ethos profile is able to create a market for themselves by providing 0.1e of liquidity.
 
 #### Trust percentages
 
@@ -42,7 +42,7 @@ As an automated market liquidity is managed algorithmically rather than via trad
 * Markets respond quickly to changing sentiment. It does not require those with the largest holdings to shift positions before the market adapts.
 * Nobody is required to add liquidity. There's no liquidity crunch as people exit the market. Despite offering a built in "short-like" position, these contracts cannot be short squeezed.
 
-For future upgrades, the Reputation Market contract implements a graduate function that allows adoption of future algorithms and implementations, with agreement from the market owner.
+For future upgrades, the Reputation Market contract implements a graduate function that allows adoption of future algorithms and implementations, with agreement from the market owner. It is currently not possible to graduate these markets today.
 
 Note that because Reputation Markets are not prediction markets and do not resolve, they are not "binary options" but lack a formal economic definition; then nearest would be a "binary perpetual."&#x20;
 
@@ -54,10 +54,22 @@ Ethos.network and Ethos.markets work as independent but complementary products. 
 * Ethos.markets ONLY lets people speculate with money, and lacks other social signals like free reviews.
 * A reputation market has pure financial upside and downside, and could muddy & conflate social signals of "I don't want to lose money" with "I don't trust this person" - something that's much more clear on Ethos.network
 
+We believe that ethos.network is the ground truth for ethos.markets.
+
+### Impacts to Credibility Score
+
+Creating a market and thus allowing people to speculate on your reputation gives you an instant credibility score boost. Once created, a user's trust and distrust score directly impacts their credibility score; users buying distrust will have the ability to lower someone else's credibility score.
+
+Users with high trust holdings will earn significant boosts to credibility score.
+
+
+### Market liquidity options
+
+When creating a market, users are given the option between 3 market sizes. Each size market has different liquidity profiles; larger markets require more ethereum to impact the trust score. This also enables the user to earn more credibility score from larger markets.
+
+
 ## Acknowledgements & Contributors
 
 This concept was originally from a conversation we had with [@CL207](https://x.com/CL207), originally in late 2023 and then again in September 2024.&#x20;
 
-Both CL and the Ethos team were inspired by what Friend.tech could be ([CL's thesis](https://www.egirlcapital.com/writings/181712053), [our thesis](https://x.com/0x5f_eth/status/1706341407672148477)) but it was missing one key part - you could only buy keys, you couldn't take the sell side. CL casually pitched the idea to us but wasn't sure how to implement it, so we did.&#x20;
-
-He will always be considered an original contributor to the thesis.
+Both CL and the Ethos team were inspired by what Friend.tech could be ([CL's thesis](https://www.egirlcapital.com/writings/181712053), [our thesis](https://x.com/0x5f_eth/status/1706341407672148477)) but it was missing one key part - you could only buy keys, you couldn't take the sell side. CL casually pitched the idea to us but wasn't sure how he would implement it, so we did.&#x20;

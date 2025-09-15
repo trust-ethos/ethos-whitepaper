@@ -37,6 +37,8 @@ Reviews influence the credibility score. The extent to which they adjust the sco
 
 This will be thoroughly documented and transparent through our [credibility-score.md](credibility-score.md "mention").
 
+Reviews also require skin in the game; reviews that are left for users who are slashed are subject to misplaced endorsement penalties.
+
 ### Philosophy
 
 Reviews are fast and free. Thus they are a weaker but earlier signal. They may be a fluke or provide an early warning sign.
@@ -60,6 +62,3 @@ We intend to eventually enable zkProofs for reviews, allowing people to anonymou
 "A highly credible person has negatively reviewed Bob"
 
 Without the credibility score calculation, anonymous reviews lack any qualification to appropriately separate noise (spam from unreputable people) from signal.&#x20;
-
-
-

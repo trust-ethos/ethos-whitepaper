@@ -28,16 +28,16 @@ With Ethos, opportunities will flow towards those with a long standing ethical h
 
 Everyone wins when checking credibility is universal. A lack of credibility evidence will be suspicious.
 
-It should be so easy, so commonplace to build and maintain a reputation on chain that there will be no excuse not to do so. When it's so automatic that we barely think about it, the crypto market will mature to the point where scams are rare and obvious.&#x20;
+It should be so easy, so commonplace to build and maintain a reputation onchain that there will be no excuse not to do so. When it's so automatic that we barely think about it, the crypto market will mature to the point where scams are rare and obvious.&#x20;
 
-In the not-so distant future, we assume nobody will take you seriously until you have an Ethos profile.
+In the not-so distant future, we assume nobody will take you seriously until you have a credible Ethos profile.
 
 ### Goals
 
 | Goal                                                                             | Measurement                                                                    |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | Align financial incentives to be backed by credibility, not rewarded by grift    | Coins, funds, and projects leveraging Ethos raise above-average investment     |
-| Raise the bar of what credibility means in web3                                  | % of top crypto influencers maintaining Ethos profiles                         |
+| Raise the bar of what credibility means in web3                                  | % of top crypto users with influence maintaining Ethos profiles                         |
 | Increase overall crypto adoption by making it a safer place for new participants | % of new crypto participants connecting to Ethos                               |
-| Save crypto billions in scams and rug pulls                                      | Ethos participants exposed as grifters permanently lose credibility            |
+| Save crypto billions in scams and rug pulls                                      | Crypto participants exposed as grifters permanently lose credibility            |
 | Lead by example to demonstrate the power of ethical behavior                     | Phase governance from central control, to points, to decentralized governance. |

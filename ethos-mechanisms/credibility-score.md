@@ -18,26 +18,36 @@ Indicators and weights may be added, removed, or adjusted according to the [cred
 
 ### Range
 
-The range of the credibility score is currently 0 to 2800, with 5 different levels
+The range of the credibility score is currently 0 to 2800, with several different levels (subject to change)
 
 0-799 - untrusted
 
 800 -1199 - questionable
 
-1200 - 1599 - neutral
+1200 - 1399 neutral
 
-1600-1999 - reputable
+1400 - 1599 known 
 
-2000- 2800 - exemplary
+1600 - 1799 established
+
+1700 - 1999 - reputable
+
+2000 - 2199 - exemplary 
+
+2200 - 2399 - distinguished
+
+2400 - 2599 - revered 
+
+2600 - 2800 - renowned 
 
 All wallets and attestations start at the default 1200 score, "neutral."
 
 ### Usage
 
-Credibility scores are intended as an "at a glance" quick estimate of credibility across many domains. No single number can represent the complexities of one's reputation among that many groups and interactions. Different communities' needs may warrant additional weights and calculations. Ethos open protocol allows other dApps to define alternate scores using the same on chain records.
+Credibility scores are intended as an "at a glance" quick estimate of credibility across many domains. No single number can represent the complexities of one's reputation among that many groups and interactions. The score is simply a summary of sentiment as measured by social proof.
+
+Different communities' needs may warrant additional weights and calculations. Ethos open protocol allows other dApps to define alternate scores using the same onchain records.
 
 ### Under the hood
 
-The credibility score will be calculated using on chain Ethos protocol data only. The algorithm will be committed to the Ethos Smart Contract, with all details publicly verifiable.&#x20;
-
-Other dApps may surface alternative credit scores.
+The credibility score will be calculated using a combination of onchain Ethos data and offchain observations like existing social graphs. Eventually, the algorithm will be committed to the Ethos Smart Contract, with all details publicly verifiable.&#x20;

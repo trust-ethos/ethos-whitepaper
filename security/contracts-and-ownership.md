@@ -21,7 +21,7 @@ Ethos also uses an Admin permission and separate multisig for non-withdraw opera
 | `0xefa91bD0c7a608B41A300Ae1C3a9f0AA16A41726` |
 | `0x7437c2BC96e062C009B8885B7c9ACa8F77302682` |
 
-Lastly, Ethos has a Bank wallet where all protocol fees are sent. It is also protected by a [Safe](https://app.safe.global/home?safe=eth:0x9C98258da66Ed095948CE4774e541C9FE978e946) behind 2 of 3 multi-sig. The address for this Safe is `0x9C98258da66Ed095948CE4774e541C9FE978e946`&#x20;
+Lastly, Ethos has a Bank wallet where all protocol fees are sent. It is also protected by a [Safe](https://app.safe.global/home?safe=eth:0x7A20d99307172D8F6B80bf1E904bbF069C31C131) behind 2 of 3 multi-sig. The address for this Safe is `0x7A20d99307172D8F6B80bf1E904bbF069C31C131`&#x20;
 
 | "Bank" wallets (2/3 multi-sig)               |
 | -------------------------------------------- |
