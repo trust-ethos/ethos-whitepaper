@@ -20,8 +20,8 @@ Specifically:
 
 **Web Services**
 
-* When possible, conduct tests in test environments only.
-* Denial of Service attacks are prohibited against app.ethos.network.
+* When possible, conduct tests in test environments.
+* Full Denial of Service attacks are prohibited against app.ethos.network.
 * Avoid testing with external dependencies and third-party systems not controlled by Ethos, such as:
   * Twitter / X
   * Cloudflare
@@ -30,10 +30,11 @@ Specifically:
   * Moralis
 * Notify Ethos staff if you will be conducting tests that may lead to increased load. If your tests increase infrastructure costs or cause Ethos to hit API rate limits, then this is sufficient reason to disqualify any bug bounty rewards.&#x20;
 
-| Service | Production ❌      | Test Environment ✅        |
-| ------- | ----------------- | ------------------------- |
-| web     | app.ethos.network | testnet.ethos.network     |
-| echo    | api.ethos.network | api.testnet.ethos.network |
+| Service | Production ❌      |
+| ------- | ----------------- |
+| web     | app.ethos.network |
+| echo    | api.ethos.network |
+| markets | ethos.markets     |
 
 **Smart Contracts**
 
@@ -52,10 +53,10 @@ Specifically:
 
 ## Report a Vulnerability
 
-| Scope           | Managed By | Submit Via                                                                                 |
-| --------------- | ---------- | ------------------------------------------------------------------------------------------ |
-| Web Services    | Ethos Labs | email [support@ethos.network](mailto:support@ethos.network)                                |
-| Smart Contracts | Sherlock   | [https://audits.sherlock.xyz/bug-bounties/47](https://audits.sherlock.xyz/bug-bounties/47) |
+| Scope           | Managed By | Submit Via                                                  |
+| --------------- | ---------- | ----------------------------------------------------------- |
+| Web Services    | Ethos Labs | email [support@ethos.network](mailto:support@ethos.network) |
+| Smart Contracts | Ethos Labs | email [support@ethos.network](mailto:support@ethos.network) |
 
 Address urgent issues or questions to: [support@ethos.network ](mailto:support@ethos.network)
 
@@ -82,11 +83,14 @@ Severity and resolution are strictly determined by the Ethos team. Payment can b
 
 ### Smart Contracts
 
-Smart Contract rewards and disputes are managed by Sherlock
+| Severity                                                   | Maximum Rewards       |
+| ---------------------------------------------------------- | --------------------- |
+| <mark style="color:red;">Critical - Contract Drain</mark>  | 10% of contract value |
+| <mark style="color:orange;">High - Financial Impact</mark> | $5,000 USD            |
+| <mark style="color:yellow;">Medium - Data Integrity</mark> | $250 USD              |
+| <mark style="color:purple;">Low / Info</mark>              | Positive Ethos Review |
 
-{% embed url="https://audits.sherlock.xyz/bug-bounties/47" %}
 
-Disputes addressed by Sherlock may not be re-escalated to the Ethos team.
 
 ## Eligibility and Scoring
 
@@ -106,18 +110,11 @@ High severity findings include:
 Medium severity findings include:
 
 * Claim XP for social media accounts you do not control
-* Force others to claim your referral links
 * Force users to review you or others
 
 Low / Info severity findings include:
 
 * Anything that impacts the generation or calculation of score or XP
-
-### Smart Contracts
-
-Smart contract eligibility and severity scoring will be strictly managed by Sherlock.
-
-{% embed url="https://audits.sherlock.xyz/bug-bounties/47" %}
 
 The following issues are considered 'known' and ineligible for rewards.
 
@@ -160,6 +157,37 @@ The following issues are considered 'known' and ineligible for rewards.
 * Email bombing
 * Request Flooding
 * Lack of rate limiting
+
+</details>
+
+### Smart Contracts
+
+Critical severity
+
+* Complete loss of contract balance funds without limitations or external conditions
+
+High severity
+
+* Definite and significant loss of funds without limitations of external conditions
+* Definite and significant freezing of funds for >1 year without limitations of external conditions
+
+Medium severity
+
+* Loss of user funds under specific circumstances
+* Freezing of funds for >1 month
+* Modification of user submitted data, such as review titles.
+
+Low/Info severity
+
+* Anything that requires special circumstances such as a rogue admin, long period of time,&#x20;
+
+The following issues are considered 'known' and are ineligble for rewards.
+
+<details>
+
+<summary>Known Issues</summary>
+
+Ethos Reputation Market vote purchase limitations when price reaches 0% or 100%
 
 </details>
 
