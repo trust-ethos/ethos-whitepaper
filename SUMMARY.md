@@ -16,6 +16,7 @@
 * [Profile](ethos-mechanisms/profile.md)
 * [Credibility Score](ethos-mechanisms/credibility-score.md)
 * [Ethos XP](ethos-mechanisms/ethos-xp.md)
+* [Human Verification](ethos-mechanisms/human-verification.md)
 
 ## Ethos.Markets
 

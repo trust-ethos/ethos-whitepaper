@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Why Ethos
 
 ## “You are your actions” <a href="#you-are-your-actions" id="you-are-your-actions"></a>

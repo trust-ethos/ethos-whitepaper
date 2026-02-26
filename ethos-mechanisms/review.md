@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Review
 
 Reviews convey credibility opinions succinctly.
@@ -22,9 +8,9 @@ Ethos reviews follow a negative, neutral and positive rating standard. Because i
 
 ### Sybil Who?
 
-Ethos requires that you have a valid Ethos profile (and thus invitation to Ethos) before one can leave reviews. This has the benefit of reducing spam and sybil attacks.&#x20;
+Ethos requires that you have a valid Ethos profile (and thus invitation to Ethos) before one can leave reviews. This has the benefit of reducing spam and sybil attacks.
 
-Reviews are not anonymous; they include who left the review.&#x20;
+Reviews are not anonymous; they include who left the review.
 
 ### Impact on Credibility
 
@@ -55,10 +41,10 @@ The review interface is intentionally simple and adaptable. Apps can add tags, k
 
 Opinions and true feelings are often lost to fear of social repercussions. Ethos reviews today are onchain and require a profile, so everyone can see exactly how people perceive each other.
 
-If the highest social signals we can get are from _anonymous_ opinions, how can we leverage the Ethos credibility score to qualify those?&#x20;
+If the highest social signals we can get are from _anonymous_ opinions, how can we leverage the Ethos credibility score to qualify those?
 
-We intend to eventually enable zkProofs for reviews, allowing people to anonymously review people with the qualifier of "Credibility score range," enabling reviews such as&#x20;
+We intend to eventually enable zkProofs for reviews, allowing people to anonymously review people with the qualifier of "Credibility score range," enabling reviews such as
 
 "A highly credible person has negatively reviewed Bob"
 
-Without the credibility score calculation, anonymous reviews lack any qualification to appropriately separate noise (spam from unreputable people) from signal.&#x20;
+Without the credibility score calculation, anonymous reviews lack any qualification to appropriately separate noise (spam from unreputable people) from signal.
